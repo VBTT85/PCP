@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="contact-info" id="contactInfo">
+        <span><img src="Images/phone.png" alt="Phone Icon" class="icon"> +27 76 666 9000</span>
+        <span><img src="Images/mail.png" alt="Email Icon" class="icon"> info@pothinuscarl.co.za</span>
+    </div>
+
+    <section class="header">
+        <nav>
+            <a href="Index.html"><img src="Images/Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="About Us.html">ABOUT US</a></li>
+                    <li><a href="Services.html">SERVICES</a></li>
+                    <li><a href="Contact Us.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Services Tailored to your</h1>
+            <p>We take care of all of your transport needs hassle free so you can focus on your core business.<br> No matter your needs, we've got you covered</p>
+            <a href="" class="hero-btn">Visit us to know More</a>
+        </div>
+    </section>
+
+
+<!-----------Services---------->
+
+<section class="Services1">
+    <h1>Our Services</h1>
+    <p>We offer a wider range of services to all our clients</p>
+    <div class="row">
+        <div class="services1-col">
+            <img src="Images/service-1.jpg" alt="Service1" class="rounded-image">
+            <h3>E Commerce Logistics</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+            <div class="services1-col">
+            <img src="Images/service-2.jpg"alt="Service1" class="rounded-image">
+            <h3>Courier Services</h3>
+            p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="services1-col">
+            <img src="Images/service-3.jpg"alt="Service1" class="rounded-image">
+            <h3>Same Day Delivery</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>      
+        </div>
+        
+    </div>
+
+</section>
+
+
+
+<!-----------Footer--------------------------->
+
+<section class="footer">
+    <h4>Contact Information</h4>
+    <p>63 Falcon Heights | Mooikloof Ridge | Tel: +27 76 666 9000 | Email: info@pothinuscarl.co.za </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+
+<!-------------Javascript for Toggle Menu------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+        navLinks.style.right = "0";
+    }
+function hideMenu(){
+navLinks.style.right = "-200px";
+}
+
+    </script>
+
+</body>
+</html>

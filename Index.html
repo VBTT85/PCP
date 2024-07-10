@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="contact-info" id="contactInfo">
+
+      
+        <span><img src="Images/phone.png" alt="Phone Icon" class="icon"> +27 76 666 9000</span>
+        <span><img src="Images/mail.png" alt="Email Icon" class="icon"> info@pothinuscarl.co.za</span>
+        <span>
+            <a href="https://www.linkedin.com/in/thato-matsiri-mokgokong-665a2116/" target="_blank">
+              <img src="Images/linkedin.png" alt="Linkedin Icon" class="icon">
+            </a>
+            <a href="" target="_blank">
+              <img src="Images/fb.png" alt="Linkedin Icon" class="icon">
+            </a>
+          </span>     
+   
+    </div>
+
+    <section class="header">
+        <nav>
+            <a href="Index.html"><img src="Images/Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="About Us.html">ABOUT US</a></li>
+                    <li><a href="Services.html">SERVICES</a></li>
+                    <li><a href="Contact Us.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Your Logistics Champions</h1>
+            <p>We take care of all of your transport needs hassle free so you can focus on your core business.<br> No matter your needs, we've got you covered</p>
+            <a href="Contact Us.html" class="hero-btn">Contact Us to know More</a>
+        </div>
+    </section>
+
+<!-------------About Us------------->
+
+<section class="about-us">
+    <h1>About Us</h1>
+    <p>Pothinus Carl Projects is a 100% black owned transportation company that was established in 2014. We provide transportation services that can help you and all our clients meet the needs of your customers on time. The founders of Pothinus Carl Projects have a combined experience of 25 years in providing on time transportation services in the telecommunications industry and are expanding the company portfolio into other industries such as mining, oil & gas and more. All our services are customised to your individual or organisational needs. Our management team works with you to make sure you get the service you are looking for to meet your business goals.</p>
+
+    <div class="row">
+        <div class="about-col">
+            <h3>OUR FLEET</h3>
+            <p>Pothinus Carl Projects owns a number of vehicles and trailers to transport your cargo/goods to their destination, safely and without any damages. Our vehicles are serviced by accredited providers 3 times a year and are safe to operate at all times The members of our staff personally check wheel alignment and inspect each vehicle before it departs with its cargo.</p>
+        </div>
+            <div class="about-col">
+            <h3>OUR DRIVERS</h3>
+            <p>Our drivers are licensed and have extensive experience navigating different routes and terrains in Gauteng. All drivers are trained to perform on the job with the right attitude, awareness and skills to be safe while driving, and to avoid life threatening situations.</p>
+            </div>
+        <div class="about-col">
+            <h3>OUR VALUE ADDS</h3>
+            <p>Among our core values are loyalty, trust and honesty and it is through these that we have build relationships with our clients. We are not just service providers, but also partners who collaborate and work with you to help you achieve a winning outcome. We are proud that we can tailor our services to your specific needs.</p>
+        </div>
+    </div>
+</section>
+
+<!-----------Services---------->
+
+<section class="services">
+    <h1>Our Services</h1>
+    <p>We offer a wide range of services that we can tailor to suit your needs</p>
+    
+    <div class="row">
+        <div class="services-col">
+            <img src="Images/Transport Service.jpg">
+            <div class="layer">
+                <h3>Transport Services</h3>
+            </div>
+        </div>
+        <div class="services-col">
+            <img src="Images/Courier2.jpg">
+            <div class="layer">
+                <h3>Courier Services</h3>
+            </div>
+        </div>
+        <div class="services-col">
+            <img src="Images/E Commerce.jpg">
+            <div class="layer">
+                <h3>E Commerce</h3>
+            </div>
+        </div>
+    </div> 
+</section>
+
+<!----------Call to action---------------->
+
+<section class="cta">
+    <h1> Enquire About our Logistics Services</h1>
+    <a href="Contact Us.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!----------End of Call to action---------------->
+
+<!-----------Footer--------------------------->
+
+<section class="footer">
+    <h4>Contact Information</h4>
+    <p>63 Falcon Heights | Mooikloof Ridge | Tel: +27 76 666 9000 | Email: info@pothinuscarl.co.za </p>
+    <p>Level 1 BBBEEE Value Added Contributor </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------------Javascript for Toggle Menu------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+        navLinks.style.right = "0";
+    }
+function hideMenu(){
+navLinks.style.right = "-200px";
+}
+
+    </script>
+
+</body>
+</html>
